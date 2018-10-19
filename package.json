@@ -1,0 +1,26 @@
+{
+  "name": "pwa-starter-kit",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": "jdin/lit-element-ts-webpack",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "rm -rf dist && webpack --config webpack.config.js",
+    "serve": "polymer serve --port 3003 dist"
+  },
+  "dependencies": {
+    "@polymer/lit-element": "0.6.2",
+    "@webcomponents/webcomponentsjs": "2.1.3"
+  },
+  "devDependencies": {
+    "typescript": "3.0.3",
+    "ts-loader": "5.2.2",
+    "babel-loader": "^7.1.4",
+    "html-webpack-plugin": "^3.2.0",
+    "polymer-cli": "1.8.0",
+    "polymer-build": "3.1.0",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.5",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
