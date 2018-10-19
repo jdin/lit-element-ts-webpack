@@ -46,6 +46,10 @@ module.exports = {
     devServer: {
         historyApiFallback: true
     },
+    resolve: {
+        // Add `.ts` as a resolvable extension.
+        extensions: [".ts", ".js"]
+    },
     mode: 'production',
     devtool: 'inline-source-map',
     module: {
